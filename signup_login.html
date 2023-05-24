@@ -5,17 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup & login</title>
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
   <div id="forms">
-    <div class="new"></div>
-    <h5>New to our store?</h5>
-    <h6>Enter your email to get started</h6>
+    <div class="new">
+    <h5>New User?</h5>
+    
     <form action="">
-        <label for="email">Email address</label><br>
-        <input type="text"  required><br>
+      <label for="name"></label><br>
+        <input type="text" placeholder="Enter your name"><br>
+        <label for="email"></label><br>
+        <input type="text" placeholder=" Enter your email address"><br>
+        <label for="psw"></label><br>
+        <input type="text" placeholder="Enter your password"><br>
+        <label for="cpsw"></label><br>
+        <input type="text" placeholder="Confirm pasword"><br>
+        <input type="button" value="Continue" ><br>
     </form>
-    <div class="exits"></div>
+    </div>
+    <div class="exits">
+      <h5>Existing  User?</h5>
+    <form action="">
+        <label for="email"></label><br>
+        <input type="text" placeholder=" Enter email/Username/Number"><br>
+        <label for="psw"></label><br>
+        <input type="text" placeholder="Enter your password"><br>
+        <input type="button" value="log In" ><br>
+    </form>
+    </div>
+    <div class="or">
+      <h5>OR</h5>
+      <a href="https://accounts.google.com/"target="blank"><input type="submit" value="Sign In with Google"></a>
+      <a href="https://www.facebook.com/"target="blank"><input type="submit" value="Sign In with Facebook"></a>
+      
+    </div>
   </div>  
 </body>
 </html>
