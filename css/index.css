@@ -27,3 +27,28 @@
      display : table;
      content : '';
  }
+ .seecc-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 2px 40px;
+    
+}
+.middle-secc-part{
+    background: #d2d2d2;
+    box-sizing: border-box;
+    border-radius: 27px;
+    border: #fff;
+    height: 50vh;
+    width: 100%;
+    box-shadow:  #c9c9c9 0px -0px 2px 0px;
+    border-bottom: solid 5px #c9c9c9;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 30PX;
+    overflow: hidden;
+    line-height: 30px;
+    text-align: center;
+    
+}
