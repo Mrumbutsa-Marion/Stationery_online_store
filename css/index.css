@@ -33,7 +33,7 @@ body {
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #020216;
+    background-color: #ffbc1f;
     color: white;
 }
 
@@ -43,7 +43,7 @@ body {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     border-radius: 25px;
-    background-color: #ffbc1f;
+    background-color: #020202;
     margin-left: -8rem;
   }
   
@@ -56,7 +56,6 @@ body {
 .navbar .brand-title{
     width: 20%;
     margin-left: 2rem;
-    border-radius: 50%;
     padding: 4px;
 }
 
@@ -84,7 +83,7 @@ body {
 }
 
 .navbar-links li:hover {
-    background-color: #ffbc1f;
+    background-color: #c9c9c9;
     
 }
 
@@ -143,7 +142,7 @@ body {
   .container1, .container2, .container3 {
     width: 55%;
     border-radius: 10px;
-    height: 20rem;
+    height: 30rem;
     box-shadow: 10px 10px 5px #ccc;
     border: 1px solid hsl(0, 10%, 34%);
     overflow: hidden;
@@ -151,7 +150,7 @@ body {
   }
   .container2{
     width: 20%;
-    height: 20rem;
+    height: 30rem;
     margin-left: 1rem;
     background-color: #d9d9d9;
     font-size: 14px;
@@ -160,19 +159,26 @@ body {
   }
   .container3{
     width: 20%;
-    height: 20rem;
+    height: 30rem;
     margin-left: 1rem;
     text-align: center;
     line-height: 3rem;
     font-weight: 800;
     background-color: #d9d9d9;
   }
-  
+  .container3{
+padding: 4rem;
+
+  }
+
   .container2 h1{
     justify-content: center;
     margin-left: 2rem ;
     font-size: 14px; 
    
+  }
+  .container2 p{
+    padding: 1rem;
   }
   .arrow {
     border: solid black;
@@ -212,7 +218,7 @@ body {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #f8d01e;
     border-radius: 50%;
     display: inline-block;
   
