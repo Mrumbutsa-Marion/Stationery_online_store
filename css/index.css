@@ -14,12 +14,13 @@ body{
     width: 35%;
     background-color:none;
     margin-left: 3%;
-    background-color: #ca952e;
+    background-color: #020216;
     border-radius: 5px;
 }
     h5{
         text-align: center;
         font-size: 20px;
+        color: #ffbc1f;
         
     }
     
@@ -34,7 +35,7 @@ input[type=text]{
     font-size: 20px;
 }
 input[type=text]:focus{
-    background-color: #6ac0dd;
+    background-color: #ffbc1f;
 }
 input[type=button]{
     width: 30%;
@@ -44,7 +45,7 @@ input[type=button]{
     border-radius: 15px;
     margin-bottom: 20px;
     cursor: pointer;
-    background-color: rgb(19, 189, 231);
+    background-color:#ffbc1f ;
     font-size: 20px;
 }
 #myBtn{
@@ -55,22 +56,28 @@ input[type=button]{
     border-radius: 15px;
     margin-bottom: 20px;
     cursor: pointer;
-    background-color: rgb(19, 189, 231);
+    background-color: #ffbc1f;
     font-size: 20px;
 }
 input[type=button]:hover{
-    background-color:#ca952e ;
+    background-color:#d9d9d9 ;
+    border: none;
+}
+
+#myBtn:hover{
+    background-color:#d9d9d9 ;
+    border: none;
 }
 .exits{
     width: 35%;
-    background-color: #ca952e;
+    background-color: #020216 ;
     margin-left: 3%;
     height: 40vh;
     border-radius: 5px;
 }
 .or{
     width: 18%;
-    background-color:#ca952e;
+    background-color:#020216;
     margin-left: 3%;
     height: 40vh;
     border-radius: 5px;
@@ -83,17 +90,20 @@ input[type=submit]{
     border-radius: 15px;
     margin-bottom: 60px;
     cursor: pointer;
-    background-color: #6ac0dd;
+    background-color: #ffbc1f;
     font-size: 20px;
     
 }
 input[type=submit]:hover{
-    background-color:#ca952e ;
+    background-color:#d9d9d9;
+    border: none;
 }
+
 
 #DA{
     font-weight: 700;
     text-align: center;
+    font-size: 20px;
     
 }
 
@@ -111,6 +121,7 @@ input[type=submit]:hover{
     overflow: auto; 
     background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
+    
   }
   
   
@@ -120,6 +131,7 @@ input[type=submit]:hover{
     padding: 20px;
     border: 1px solid #888;
     width: 50%;
+    border-radius: 10px;
   }
   
   
@@ -145,3 +157,22 @@ input[type=submit]:hover{
     width: 30%;
     margin-left: 8%;
   }
+
+  /*styling the payment*/
+
+  .mpesa{
+    height: 23vh;
+    width: 30%;
+    margin-left: 30%;
+    background-color: #ffbc1f;
+    text-align: center;
+    box-shadow: #fefefe;
+}
+p{
+    font-size: 20px;
+    color: #020202;
+}
+input[type=radio]{
+    font-weight: 700px;
+    color: yellow;
+}
