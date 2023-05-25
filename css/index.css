@@ -2,7 +2,7 @@
     /*background-color: blue;*/
     height: 280vh;
     margin: 0;
-    padding: 0%;
+    padding: 0;
 }
 .main-secondpart{
    /* background-color: aqua;*/
@@ -88,4 +88,22 @@
 }
 .cart a:hover{
     color: #ffbc1f;
+}
+
+
+.terms_conditions{
+    height: 50vh;
+    background: #c9c9c9;
+    margin: 2px ;
+    width: 80%;
+    margin-left: 9rem;
+    box-sizing: border-box;
+    border-radius: 27px;
+    padding: 20px;
+}
+
+.terms_conditions li{
+    font-size: 1.3em;margin: 7px 30px;
+    font-weight: 500;
+    align-items: center;
 }
