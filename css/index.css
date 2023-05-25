@@ -36,15 +36,7 @@ body {
     background-color: #020216;
     color: white;
 }
-/* .navbar .bato{
-    border-radius: 25px;
-    color: #e7dbdb;
-    padding: 5px;
-    width: 45%;
-    background-color: #ffbc1f;
-    margin-left: -18rem;
-    cursor: pointer;
-} */
+
 .navbar input[type=text] {
     width: 300px;
     height: 3rem;
