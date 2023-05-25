@@ -52,3 +52,44 @@
     text-align: center;
     
 }
+.middle-secc-part img{
+    width: 100%;
+}
+.middle-secc-part h4{
+    margin-top: 10px;
+    margin-bottom: -40px;
+    color: #020216;
+    font-size: 1.3em;
+}
+.middle-secc-part h5{
+    color: #020216;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}
+.cart{
+    padding: 0px 50px;
+    
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between; 
+}
+.cart a img{
+    width: 25px;
+    height: 25px;
+    /* UI Properties */
+    opacity: 1;
+    padding: px 100px;
+    
+}
+.cart a{
+    margin-bottom: 80px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: 600;
+    margin-top: -10px;
+}
+.cart a:hover{
+    color: blue;
+}
