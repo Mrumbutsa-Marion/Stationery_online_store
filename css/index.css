@@ -90,12 +90,12 @@ input[type=submit]{
     border-radius: 15px;
     margin-bottom: 60px;
     cursor: pointer;
-    background-color: #e9a810;
+    background-color: #ffbc1f;
     font-size: 20px;
     
 }
 input[type=submit]:hover{
-    background-color:#df1919;
+    background-color:#d9d9d9;
     border: none;
 }
 
