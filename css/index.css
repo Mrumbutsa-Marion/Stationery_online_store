@@ -56,8 +56,8 @@
     width: 100%;
 }
 .middle-secc-part h4{
-    margin-top: 10px;
-    margin-bottom: -40px;
+    margin-top: -10px;
+    margin-bottom: -2rem;
     color: #020216;
     font-size: 1.3em;
 }
