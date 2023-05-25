@@ -64,7 +64,7 @@ body {
 .navbar .brand-title{
     width: 20%;
     margin-left: 2rem;
-    border-radius: 100px;
+    border-radius: 50%;
     padding: 4px;
 }
 
