@@ -10,3 +10,20 @@
     margin: 0 auto;
     padding: 8px 20px;
 }
+.main-secondpart{
+    /* background-color: aqua;*/
+     width: 90%;
+     margin: 0 auto;
+     padding: 8px 20px;
+ }
+ .main-secondpart h2{
+     text-align: center;
+     font-size: 2.5em;
+     padding: 0px;
+     margin-top: 90px;
+ }
+ .main-second:after {
+     clear   : both;
+     display : table;
+     content : '';
+ }
