@@ -68,7 +68,6 @@
 }
 .cart{
     padding: 0px 50px;
-    
     width: 80%;
     align-items: center;
     display: flex;
@@ -77,10 +76,7 @@
 .cart a img{
     width: 25px;
     height: 25px;
-    /* UI Properties */
     opacity: 1;
-    padding: px 100px;
-    
 }
 .cart a{
     margin-bottom: 80px;
@@ -91,5 +87,5 @@
     margin-top: -10px;
 }
 .cart a:hover{
-    color: blue;
+    color: #ffbc1f;
 }
