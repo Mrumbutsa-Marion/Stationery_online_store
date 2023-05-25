@@ -1,0 +1,12 @@
+.middle-home-part{
+    /*background-color: blue;*/
+    height: 280vh;
+    margin: 0;
+    padding: 0%;
+}
+.main-secondpart{
+   /* background-color: aqua;*/
+    width: 90%;
+    margin: 0 auto;
+    padding: 8px 20px;
+}
