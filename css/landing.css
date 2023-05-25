@@ -3,6 +3,7 @@
     height: 280vh;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 .main-secondpart{
    /* background-color: aqua;*/
@@ -161,7 +162,6 @@
     font-size: 1.2em;
     color: #c9c9c9;
 }
-
 .contact-map{
     padding: 0;
     margin-top: -0rem;
@@ -170,4 +170,16 @@
 .contact-map iframe{
     width: 100%;
     height: 100%;
+}
+footer{
+    height: 2rem;
+    background-color: #ffbc1f;
+    margin-top: -1.3rem;
+}
+footer p{
+    text-align: center;
+    color: #020216;
+    font-size: 1.1em;
+    padding: 10px;
+    
 }
