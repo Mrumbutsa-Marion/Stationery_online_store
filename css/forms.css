@@ -1,0 +1,178 @@
+/*styling the sign up*/
+body{
+    padding: 0;
+    margin: 0;
+}
+#forms{
+    width: 100%;
+    background-color: none;
+    height: 60vh;
+    margin-top: 150px;
+    display: flex;
+}
+.new{
+    width: 35%;
+    background-color:none;
+    margin-left: 3%;
+    background-color: #020216;
+    border-radius: 5px;
+}
+    h5{
+        text-align: center;
+        font-size: 20px;
+        color: #ffbc1f;
+        
+    }
+    
+    
+input[type=text]{
+    width: 70%;
+    margin-left:17%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+input[type=text]:focus{
+    background-color: #ffbc1f;
+}
+input[type=button]{
+    width: 30%;
+    margin-left:33%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color:#ffbc1f ;
+    font-size: 20px;
+}
+#myBtn{
+    width: 30%;
+    margin-left:33%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #ffbc1f;
+    font-size: 20px;
+}
+input[type=button]:hover{
+    background-color:#d9d9d9 ;
+    border: none;
+}
+
+#myBtn:hover{
+    background-color:#d9d9d9 ;
+    border: none;
+}
+.exits{
+    width: 35%;
+    background-color: #020216 ;
+    margin-left: 3%;
+    height: 40vh;
+    border-radius: 5px;
+}
+.or{
+    width: 18%;
+    background-color:#020216;
+    margin-left: 3%;
+    height: 40vh;
+    border-radius: 5px;
+}
+input[type=submit]{
+    width: 80%;
+    margin-left: 9%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    cursor: pointer;
+    background-color: #ffbc1f;
+    font-size: 20px;
+    
+}
+input[type=submit]:hover{
+    background-color:#d9d9d9;
+    border: none;
+}
+
+
+#DA{
+    font-weight: 700;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+
+.address {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    
+  }
+  
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #btn{
+    width: 30%;
+    margin-left: 17%;
+  }
+
+  #btn1{
+    width: 30%;
+    margin-left: 8%;
+  }
+
+  /*styling the payment*/
+
+  .mpesa{
+    height: 23vh;
+    width: 30%;
+    margin-left: 30%;
+    background-color: #ffbc1f;
+    text-align: center;
+    box-shadow: #fefefe;
+}
+p{
+    font-size: 20px;
+    color: #020202;
+}
+input[type=radio]{
+    font-weight: 700px;
+    color: yellow;
+}
