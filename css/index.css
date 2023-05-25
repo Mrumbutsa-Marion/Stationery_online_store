@@ -55,7 +55,7 @@ body {
     margin-left: -8rem;
   }
   
-  /* When the input field gets focus, change its width to 100% */
+  
  .navbar input[type=text]:focus {
     width: 50%;
     color: #f7f3eb;
