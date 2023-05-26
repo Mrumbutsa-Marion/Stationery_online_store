@@ -67,7 +67,6 @@
     margin-bottom: 0px;
     font-size: 1.2em;
 }
-
 .cart{
     padding: 0px 50px;
     width: 80%;
@@ -105,18 +104,19 @@
 }
 
 .terms_conditions li{
-    font-size: 1.3em;
-    margin: 2rem 30px;
+    font-size: 1.3em;margin: 7px 30px;
     font-weight: 500;
     align-items: center;
 }
 .bottom-page {
+    width: 100%;
     background-color: #020216;
     height: 19rem;
     z-index: 1;
     position: relative;
     margin: 0;
     padding: 2rem;
+    left: -4rem;
     margin-top: 1rem;
     display: flex;
     align-items: center;
@@ -174,12 +174,12 @@
 footer{
     height: 2rem;
     background-color: #ffbc1f;
-    margin-top: 0.1rem;
+    margin-top: -1.3rem;
 }
 footer p{
     text-align: center;
     color: #020216;
     font-size: 1.1em;
-    padding: 2px;
+    padding: 10px;
     
 }

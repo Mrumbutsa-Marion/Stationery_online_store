@@ -23,9 +23,6 @@ body{
         color: #ffbc1f;
         
     }
-
-    
-
 /* Navigation */
 .navbar {
     display: flex;
@@ -133,8 +130,8 @@ input[type=text]{
 }
 
 
-
 /* Forms */
+
 input[type=text]:focus{
     background-color: #ffbc1f;
 }
@@ -365,3 +362,4 @@ footer p{
     padding: 10px;
     
 }
+

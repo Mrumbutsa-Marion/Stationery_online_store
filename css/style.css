@@ -169,13 +169,7 @@ padding: 4rem;
    
   }
   .container2 p a { 
-    font-size: 1.1rem;
-    color: #020216;
-    font-weight: 600;
-  }
-  .container2 p a:hover{
-    color: #ffbc1f;
-
+    font-size: 14px;
   }
   .arrow {
     border: solid black;
@@ -289,7 +283,7 @@ padding: 4rem;
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin: 20px 40px;
+    margin: 2px 40px;
     
 }
 .middle-secc-part{
@@ -314,14 +308,14 @@ padding: 4rem;
     height: 60%;
 }
 .middle-secc-part h4{
-    margin-top: 3px;
+    margin-top: -10px;
+    margin-bottom: 0.5rem;
     color: #020216;
-    font-size: 1.2em;
+    font-size: 14px;
     
 }
 .middle-secc-part h5{
     color: #020216;
-    margin-top: 1.5rem;
     margin-bottom: 2rem;
     font-size: 20px;
 }
@@ -436,14 +430,13 @@ padding: 4rem;
 footer{
     height: 2rem;
     background-color: #ffbc1f;
-    margin-top: 0.1rem;
-    overflow: hidden;
+    margin-top: -1.3rem;
 }
 footer p{
-  text-align: center;
-  color: #020216;
-  font-size: 1.1em;
-  padding: 6px;
+    text-align: center;
+    color: #020216;
+    font-size: 1.1em;
+    padding: 10px;
     
 }
 
@@ -459,20 +452,12 @@ footer p{
 }
 .by {
     width: 10rem;
-    height: 2.5rem;
+    height: 3rem;
     border-radius: 10px;
     background-color: orange;
     top: -1.8rem;
     position: relative;
 
-}
-.by a:hover{
-  color: #717171;
-}
-.by a{
-  text-decoration: none;
-  color: #020216;
-  font-size: 0.9rem;
 }
 
 
