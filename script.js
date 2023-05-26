@@ -25,7 +25,32 @@ function showSlides() {
   slides[slideIndex].style.display = "block";  
   dots[slideIndex].className += " active";
   slideIndex++;
-  setTimeout(showSlides, 3000); // Change image every 3 seconds
+  setTimeout(showSlides, 4000); // Change image every 3 seconds
 }
 
+
+
+
+
+
+
+
+
+// Forms 
+
+var address = document.getElementById("delivery");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  address.style.display = "block";
+}
+span.onclick = function() {
+  address.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == address) {
+    address.style.display = "none";
+  }
+}
 
