@@ -25,6 +25,8 @@ This is the last group project website in I&M Pre-prep Course.The website is an 
 * colors
 ### **Setup Process**
 ---
+#### **Started with creating a sketch then followed by creating the UI design**
+![plot](./images/our%20landing%20page.png)
 # **Github Pages**
 * Using Git and Github
 * Inserting git
