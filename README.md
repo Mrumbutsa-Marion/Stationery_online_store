@@ -7,7 +7,7 @@ ___
 * Set-up instructions
 * Link to live site on Github Pages
 * Copyright and licences
-* Authors Info
+* Authors Information
 
 # **Description**
 This is the last group project website in I&M Pre-prep Course.The website is an Ecommerce application where our main target is coming up with a solution on how parents can purchase stationery items and cbc books. This will help in time management wnd avoid overcrowdings'.

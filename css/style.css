@@ -430,13 +430,14 @@ padding: 4rem;
 footer{
     height: 2rem;
     background-color: #ffbc1f;
-    margin-top: -1.3rem;
+    margin-top: -0.8rem;
+    overflow: hidden;
 }
 footer p{
     text-align: center;
     color: #020216;
     font-size: 1.1em;
-    padding: 10px;
+    padding: 11px;
     
 }
 
