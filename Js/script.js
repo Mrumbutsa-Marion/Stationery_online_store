@@ -53,4 +53,3 @@ window.onclick = function(event) {
     address.style.display = "none";
   }
 }
-
