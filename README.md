@@ -1,6 +1,6 @@
-# **Stationery Online store**
+# **Stationery Online store Group Project**
 ### **By Marion Mwanje**
-## **Stationary Store Group**
+
 ## **Table of Content**
 ___
 * Description
